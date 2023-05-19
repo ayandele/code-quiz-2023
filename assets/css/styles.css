@@ -1,43 +1,62 @@
 /* reset.css */
-/* Add your reset CSS styles here */
+/* Add reset CSS styles here */
 
 /* styles.css */
-/* Add your custom styles for the quiz here */
+/* Add custom styles for the quiz here */
 
 .StartQuizBox {
-/* Add styles for the start quiz box */
+    /* Add styles for the start quiz box */
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
 .startyourQuizheader {
-/* Add styles for the start quiz header */
+    /* Add styles for the start quiz header */
+    color: #333;
+    font-size: 24px;
 }
 
 .quizrulesandGuidelines {
-/* Add styles for the quiz rules and guidelines */
-} 
+    /* Add styles for the quiz rules and guidelines */
+    margin-top: 20px;
+}
 
 .listofrules {
-/* Add styles for the list of rules */
+    /* Add styles for the list of rules */
+    list-style-type: disc;
+    margin-left: 20px;
 }
 
 .startQuiz {
-/* Add styles for the start quiz button */
+    /* Add styles for the start quiz button */
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
 }
 
 .quizQuestionscontainer {
-/* Add styles for the quiz questions container */
+    /* Add styles for the quiz questions container */
+    margin-top: 20px;
 }
 
 .timerText {
-/* Add styles for the timer text */
-} 
+    /* Add styles for the timer text */
+    font-size: 18px;
+    color: #ff0000;
+}
 
 .questionHeadline {
-/* Add styles for the question headline */
+    /* Add styles for the question headline */
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .quizanswersContainer {
-/* Add styles for the quiz answers container */
+    /* Add styles for the quiz answers container */
+    margin-top: 10px;
 }
 
 .answer1,
@@ -45,48 +64,82 @@
 .answer3,
 .answer4 {
     /* Add styles for the answer buttons */
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .userScorelabel {
     /* Add styles for the user score label */
+    font-size: 18px;
+    margin-top: 20px;
 }
 
 .quizAnswerbox {
     /* Add styles for the quiz answer box */
+    margin-top: 20px;
 }
 
 .resultLabel {
     /* Add styles for the result label */
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .endtheQuizContainer {
     /* Add styles for the end of quiz container */
+    margin-top: 20px;
 }
 
 .hightestscoreheader {
     /* Add styles for the highest score header */
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .youScoredheader {
     /* Add styles for the "You Scored" header */
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 .submitYourhighestscore {
     /* Add styles for the submit highest score form */
+    margin-top: 20px;
 }
 
 .yournameheader {
     /* Add styles for the "Your Name" header */
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .submitYourscorebutton {
     /* Add styles for the submit your score button */
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
 }
 
 .thehighestScorelist {
     /* Add styles for the highest score list */
+    margin-top: 20px;
+    list-style-type: decimal;
+    margin-left: 20px;
 }
 
 .restartThequizbutton {
     /* Add styles for the restart quiz button */
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
 }

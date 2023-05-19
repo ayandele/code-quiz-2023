@@ -14,53 +14,45 @@
         <h1 class="startyourQuizheader" id="startyourQuizheader">Life In The United Kingdom- Knowledge Test</h1>
         <div class="quizrulesandGuidelines" id="quizrulesandGuidelines">
             <ul class="listofrules">
-                <li class="rule1">Test your knowledge of life in the united Kingdom.</li>
+                <li class="rule1">Test your knowledge of life in the United Kingdom.</li>
                 <li class="rule2">You will have 45 seconds to answer the questions on the screen.</li>
-                <li class="rule3">You will lose 10 seconds for selecting a worng answer.</li>
-                <li class="rule4">You You can complare your score with others by submitting your score at the end of the quiz.</li>
+                <li class="rule3">You will lose 10 seconds for selecting a wrong answer.</li>
+                <li class="rule4">You can compare your score with others by submitting your score at the end of the quiz.</li>
             </ul>
         </div>
         <button class="startQuiz" id="startQuiz"> START QUIZ</button>
     </div>
+
     <div class="quizQuestionscontainer" id="quizQuestionscontainer">
-        <div class="timerText" id="timertext">Time Left = 45 Seconds</div>
-        <h2 class="questionHeadline" id="questionHeadline">Question 1</h2>
-        <div class="quizanswersContainer" id="quizanswerrsContainer">
-            <button class="answer1" id="answerbutton1">Answer 1</button>
-            <button class="answer2" id="answerbutton2">Answer 2</button>
-            <button class="answer3" id="answerbutton3">Answer 3</button>
-            <button class="answer4" id="answerbutton4">Answer 4</button>
+        <div class="timerText" id="timertext">Time Left = <span id="timeLeft">45</span> Seconds</div>
+        <h2 class="questionHeadline" id="questionHeadline"></h2>
+        <div class="quizanswersContainer" id="quizanswersContainer">
+            <button class="answer1" id="answerbutton1"></button>
+            <button class="answer2" id="answerbutton2"></button>
+            <button class="answer3" id="answerbutton3"></button>
+            <button class="answer4" id="answerbutton4"></button>
         </div>
-        <div class="userScorelabel" id="userScorelabel">Score: 0</div>
+        <div class="userScorelabel" id="userScorelabel">Score: <span id="userScore">0</span></div>
         <div class="quizAnswerbox" id="quizAnswerbox">
             <div class="resultLabel" id="resultLabel"></div>
         </div>
     </div>
 
     <div class="endtheQuizContainer" id="endtheQuizContainer">
-        <h2 id="hightestscoreheader" class="hightestscoreheader">Submit your Highest Score</h2
-        <div class="youScoredheader" id="youScoredheader">Congratulations You Scored: </div> 
+        <h2 id="hightestscoreheader" class="hightestscoreheader">Submit your Highest Score</h2>
+        <div class="youScoredheader" id="youScoredheader">Congratulations You Scored: <span id="finalScore"></span></div> 
         <form action="submit" class="submitYourhighestscore" id="submitYourhighestscore">
-            <h3 class="yournameheader">Your Name: </h3>
+            <h3 class="yournameheader">Your Name:</h3>
             <input type="text" id="highetsScoreName">
-            <button class="submitYourscorebutton" id="submitYourscorebutton"> Submit Your Score</button>
+            <button class="submitYourscorebutton" id="submitYourscorebutton">Submit Your Score</button>
         </form>
-        <ol class="thehighestScorelist" id= thehighestScorelist>
-            <li class="highestscore1" id="highestscore1">Name: = Score</li>
-            <li class="highestscore2" id="highestscore2">Name: = Score</li>
-            <li class="highestscore3" id="highestscore3">Name: = Score</li>
-            <li class="highestscore4" id="highestscore4">Name: = Score</li>
-            <li class="highestscore5" id="highestscore5">Name: = Score</li>
-            <li class="highestscore6" id="highestscore6">Name: = Score</li>
-            <li class="highestscore7" id="highestscore7">Name: = Score</li>
-            <li class="highestscore8" id="highestscore8">Name: = Score</li>
-            <li class="highestscore9" id="highestscore9">Name: = Score</li>
-            <li class="highestscore10" id="highestscore10">Name: = Score</li>
+        <ol class="thehighestScorelist" id="thehighestScorelist">
+            <!-- Placeholder for high scores -->
         </ol>
         <button class="restartThequizbutton" id="restartThequizbutton">Restart The Quiz</button> 
     </div>
 
-<script src=".assets/js/questions.js"></script>
-<script src=".assets/js/script.js"></script>
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

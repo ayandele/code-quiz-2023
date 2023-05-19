@@ -1,0 +1,92 @@
+/* reset.css */
+/* Add your reset CSS styles here */
+
+/* styles.css */
+/* Add your custom styles for the quiz here */
+
+.StartQuizBox {
+    /* Add styles for the start quiz box */
+}
+
+.startyourQuizheader {
+    /* Add styles for the start quiz header */
+}
+
+.quizrulesandGuidelines {
+    /* Add styles for the quiz rules and guidelines */
+} 
+
+.listofrules {
+    /* Add styles for the list of rules */
+}
+
+.startQuiz {
+    /* Add styles for the start quiz button */
+}
+
+.quizQuestionscontainer {
+    /* Add styles for the quiz questions container */
+}
+
+.timerText {
+    /* Add styles for the timer text */
+} 
+
+.questionHeadline {
+    /* Add styles for the question headline */
+}
+
+.quizanswersContainer {
+    /* Add styles for the quiz answers container */
+}
+
+.answer1,
+.answer2,
+.answer3,
+.answer4 {
+    /* Add styles for the answer buttons */
+}
+
+.userScorelabel {
+    /* Add styles for the user score label */
+}
+
+.quizAnswerbox {
+    /* Add styles for the quiz answer box */
+}
+
+.resultLabel {
+    /* Add styles for the result label */
+}
+
+.endtheQuizContainer {
+    /* Add styles for the end of quiz container */
+}
+
+.hightestscoreheader {
+    /* Add styles for the highest score header */
+}
+
+.youScoredheader {
+    /* Add styles for the "You Scored" header */
+}
+
+.submitYourhighestscore {
+    /* Add styles for the submit highest score form */
+}
+
+.yournameheader {
+    /* Add styles for the "Your Name" header */
+}
+
+.submitYourscorebutton {
+    /* Add styles for the submit your score button */
+}
+
+.thehighestScorelist {
+    /* Add styles for the highest score list */
+}
+
+.restartThequizbutton {
+    /* Add styles for the restart quiz button */
+}

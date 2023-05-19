@@ -3,7 +3,10 @@ const startQuizBox = document.getElementById("startQuizBox");
 const quizQuestionsContainer = document.getElementById("quizQuestionscontainer");
 const endQuizContainer = document.getElementById("endtheQuizContainer");
 const resultLabel = document.getElementById("resultLabel");
+const timerText = document.getElementById("timertext");
 let score = 0;
+let timeLeft = 45;
+let timerInterval;
 
 // Add event listeners
 document.getElementById("startQuiz").addEventListener("click", startQuiz);
@@ -30,6 +33,7 @@ let currentQuestionIndex = 0;
 function startQuiz() {
   startQuizBox.style.display = "none";
   quizQuestionsContainer.style.display = "block";
+  startTimer();
   showQuestion();
 }
 
@@ -61,6 +65,7 @@ function checkAnswer(event) {
   } else {
     resultLabel.textContent = "Wrong!";
     resultLabel.style.color = "red";
+    timeLeft -= 10; // Deduct 10 seconds for a wrong answer
   }
 
   currentQuestionIndex++;
@@ -74,6 +79,7 @@ function checkAnswer(event) {
 
 // End the quiz
 function endQuiz() {
+  stopTimer();
   quizQuestionsContainer.style.display = "none";
   endQuizContainer.style.display = "block";
   document.getElementById("youScoredheader").textContent = "Congratulations! You Scored: " + score;
@@ -95,6 +101,28 @@ function submitScore() {
 function restartQuiz() {
   score = 0;
   currentQuestionIndex = 0;
+  timeLeft = 45;
   endQuizContainer.style.display = "none";
   startQuizBox.style.display = "block";
+}
+
+// Start the timer
+function startTimer() {
+  timerInterval = setInterval(updateTimer, 1000);
+}
+
+// Stop the timer
+function stopTimer() {
+  clearInterval(timerInterval);
+}
+
+// Update the timer
+function updateTimer() {
+  if (timeLeft > 0) {
+    timerText.textContent = "Time Left: " + timeLeft + " seconds";
+    timeLeft--;
+  } else {
+    stopTimer();
+    endQuiz();
+  }
 }

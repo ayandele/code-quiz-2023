@@ -1,6 +1,26 @@
 // Define an array of quiz questions and answers
 const quizQuestions = [
     {
+    question: "Was the United Kingdom a colonial power?",
+    answers: [
+        "Yes",
+        "No",
+        "I am not sure"
+    ],
+    correctAnswer: "Yes"
+    },
+
+    {
+    question: "Is the United Kingdom in possession of looted artifacts from Benin, Nigeria?",
+    answers: [
+        "Yes",
+        "No",
+        "Not Sure"
+    ],
+    correctAnswer: "Yes"
+    },
+
+    {
     question: "Who is the Sovereign of the United Kingdom?",
     answers: [
         "The Prime Minister",
@@ -10,6 +30,7 @@ const quizQuestions = [
     ],
     correctAnswer: "King Charles III"
     },
+    
     {
     question: "What is the smallest denomination of the British currency?",
     answers: [
@@ -20,7 +41,6 @@ const quizQuestions = [
     ],
     correctAnswer: "One Pence"
     },
-    // Add more questions as needed
 ];
 
   // Export the quiz questions array

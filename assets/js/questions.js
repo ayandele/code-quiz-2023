@@ -1,24 +1,24 @@
 // Define an array of quiz questions and answers
 const quizQuestions = [
     {
-    question: "Question 1",
+    question: "Who is the Sovereign of the United Kingdom?",
     answers: [
-        "Answer 1",
-        "Answer 2",
-        "Answer 3",
-        "Answer 4"
+        "The Prime Minister",
+        "The Secretary of State",
+        "Queen Elizabeth II",
+        "King Charles III"
     ],
-    correctAnswer: 1
+    correctAnswer: "King Charles III"
     },
     {
-    question: "Question 2",
+    question: "What is the smallest denomination of the British currency?",
     answers: [
-        "Answer 1",
-        "Answer 2",
-        "Answer 3",
-        "Answer 4"
+        "One Cent",
+        "One Pence",
+        "Naught",
+        "25 Pence"
     ],
-    correctAnswer: 2
+    correctAnswer: "One Pence"
     },
     // Add more questions as needed
 ];
